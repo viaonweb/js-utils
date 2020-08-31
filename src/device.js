@@ -1,0 +1,18 @@
+const UA = window.navigator.userAgent.toLowerCase();
+export const isAndroid = /android/i.test(UA);
+export const isIos = /\(i[^;]+;( U;)? CPU.+Mac OS X/i.test(UA);
+export const isTJ = /AliApp\(LT/i.test(UA);
+export const isTM = /AliApp\(TM/i.test(UA);
+export const isTB = /AliApp\(TB/i.test(UA);
+export const isAP = /AliApp\(AP/i.test(UA);
+export const isIPhoneX = isIos && (screen.height === 812 && screen.width === 375 || screen.height === 896 && screen.width === 414);
+
+export const device = {
+  isAndroid,
+  isIos,
+  isIPhoneX,
+  isTJ,
+  isTM,
+  isTB,
+  isAP,
+};
