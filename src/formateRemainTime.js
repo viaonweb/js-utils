@@ -5,8 +5,8 @@
 */
 import {
   floor,
-} from './tools';
-export function formatRemainTime(endTime) {
+} from '../tools';
+export default (endTime) => {
   const secGap = (endTime - Date.now()) / 1000;
   if (secGap < 0) return ['00', '00', '00'];
   const unitDay = 60 * 60 * 24;

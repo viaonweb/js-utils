@@ -1,6 +1,6 @@
 import {
   floor,
-} from './tools';
+} from '../tools';
 /**
   * 当前时间
   * @param date {number} 当前时间戳
