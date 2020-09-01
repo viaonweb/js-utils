@@ -1,6 +1,6 @@
 import {
   compareVersion,
-} from '../src/compareVersion';
+} from '../src/index';
 describe('版本比较测试', () => {
   test('大于版本号', () => {
     expect(compareVersion('1.0.3', '1.0.2')).toBe(1);

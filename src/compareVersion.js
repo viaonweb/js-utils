@@ -22,14 +22,14 @@ export const compareVersion = (version1, version2) => {
   }
   if (length1 > length2) {
     for (let j = i; j < length1; j++) {
-      if (parseInt(arr1[j]) != 0) {
+      if (parseInt(arr1[j]) !== 0) {
         return 1;
       }
     }
     return 0;
   } if (length1 < length2) {
     for (let j = i; j < length2; j++) {
-      if (parseInt(arr2[j]) != 0) {
+      if (parseInt(arr2[j]) !== 0) {
         return -1;
       }
     }

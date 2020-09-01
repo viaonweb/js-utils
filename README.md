@@ -22,3 +22,10 @@
   device.isTB,
   device.isAP,
 ```
+
+##### compareVersion
+```javascript
+  const isHigh = compareVersion('1.0.1', '1.0.0.0'); // 1
+  const isEqual = compareVersion('1.0.0', '1.0.0.0'); // 0
+  const isLow = compareVersion('1.0.1', '1.0.2'); // -1
+```

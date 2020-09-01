@@ -1,6 +1,6 @@
 import {
   getUrlParam,
-} from '../src/getUrlParam';
+} from '../src/index';
 
 describe('url取参', () => {
   test('url为空', () => {
