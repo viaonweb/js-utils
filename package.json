@@ -1,6 +1,6 @@
 {
   "name": "@ali/awesome-utils",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "some utils",
   "main": "dist/index.js",
   "scripts": {
@@ -38,5 +38,8 @@
     "testMatch": [
       "<rootDir>/test/**"
     ]
+  },
+  "dependencies": {
+    "lodash": "^4.17.20"
   }
 }

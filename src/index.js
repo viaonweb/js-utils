@@ -1,15 +1,33 @@
 export {
-  compareVersion,
+  default as compareVersion,
 } from './compareVersion';
 export {
-  device,
+  default as device,
 } from './device';
 export {
-  getUrlParam,
+  default as formateRemainTime
+} from './formateRemainTime';
+export {
+  default as formatTime
+} from './formatTime';
+export {
+  default as get
+} from './get';
+export {
+  default as getCookie
+} from './getCookie';
+export {
+  default as getUrlParam,
 } from './getUrlParam';
 export {
-  promisefy,
+  default as getVariableType
+} from './getVariableType';
+export {
+  default as promisefy,
 } from './promisefy';
 export {
-  throttle,
+  default as storage
+} from './storage';
+export {
+  default as throttle,
 } from './throttle';

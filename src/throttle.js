@@ -1,4 +1,4 @@
-export const throttle = (fn = () => {}, delay = 80) => {
+export default (fn = () => {}, delay = 80) => {
   let canRun = true;
   return (...arg) => {
     if (!canRun) return false;

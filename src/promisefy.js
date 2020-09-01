@@ -4,7 +4,7 @@
 * @param {function} -e.g promisefy((string1, string2, success, fail)=>{})
 * @return {function}
 */
-export const promisefy = (fn = (...arg) => {
+export default (fn = (...arg) => {
   arg[arg.length - 1]('promisefy`s param format is wrong');
 }) => (...[
   objStr = '',

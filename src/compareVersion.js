@@ -2,9 +2,9 @@
  * 版本比较
  * @param {string} version1
  * @param {string} version2
- * @return {Number}
+ * @return {Number} 1 / -1 / 0
  */
-export const compareVersion = (version1, version2) => {
+export default (version1, version2) => {
   const arr1 = version1.split('.');
   const arr2 = version2.split('.');
   const length1 = arr1.length;

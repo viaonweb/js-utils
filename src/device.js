@@ -7,7 +7,7 @@ export const isTB = /AliApp\(TB/i.test(UA);
 export const isAP = /AliApp\(AP/i.test(UA);
 export const isIPhoneX = isIos && (screen.height === 812 && screen.width === 375 || screen.height === 896 && screen.width === 414);
 
-export const device = {
+export default {
   isAndroid,
   isIos,
   isIPhoneX,

@@ -4,7 +4,7 @@
  * @param {string} url
  * @return {String}
  */
-export const getUrlParam = (prop, url = window.location.href) => {
+export default (prop, url = window.location.href) => {
   const params = {};
   const search = url.split('?')[1];
   if (!search) return '';
