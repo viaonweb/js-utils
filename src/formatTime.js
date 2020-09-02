@@ -7,7 +7,7 @@ import {
   * @return {object}
 */
 export default t => {
-  const date = new Date(t);
+  const date = new Date(+t);
   const year = date.getFullYear();
   const month = floor(date.getMonth() + 1);
   const day = floor(date.getDate());

@@ -1,6 +1,6 @@
 {
   "name": "@ali/awesome-utils",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "description": "some utils",
   "main": "lib/index.js",
   "scripts": {

@@ -12,7 +12,7 @@ const getEntry = (globPath) => {
 module.exports = {
   mode: 'production',
   entry: getEntry('./src/*'),
-  externals: 'lodash',
+  // externals: 'lodash',
   output: {
     path: path.resolve(__dirname,'lib'),
     filename: '[name].js',
