@@ -1,3 +1,21 @@
+# 引入方式
+* 全部引入
+
+```js
+import {
+  promisefy,
+} from '@ali/awesome-utils';
+```
+
+* 按需引入
+
+```js
+import {
+  promisefy,
+} from '@ali/awesome-utils/lib/promisefy';
+```
+
+# 方法的使用
 ## promisefy
 * 回调函数封装为promise
 * @param {function}
