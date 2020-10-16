@@ -5,8 +5,8 @@ export {
   default as device,
 } from './device';
 export {
-  default as formateRemainTime
-} from './formateRemainTime';
+  default as formatCountDown
+} from './formatCountDown';
 export {
   default as formatTime
 } from './formatTime';
