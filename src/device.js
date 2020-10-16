@@ -1,5 +1,5 @@
 const UA = window.navigator.userAgent.toLowerCase();
-const matchVersion = UA.match(/AliApp\(LT\/([\d.]+)\)/i) || [0, 0];
+const matchVersion = UA.match(/AliApp\(LT\/([\d.]+)\)/i) || ['', '0.0.0'];
 export const isAndroid = /android/i.test(UA);
 export const isIos = /\(i[^;]+;( U;)? CPU.+Mac OS X/i.test(UA);
 export const isTJ = /AliApp\(LT/i.test(UA);
