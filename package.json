@@ -1,6 +1,6 @@
 {
-  "name": "@ali/awesome-utils",
-  "version": "0.1.9",
+  "name": "js-utils",
+  "version": "0.0.1",
   "description": "some utils",
   "main": "lib/index.js",
   "scripts": {
@@ -10,18 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://gitlab.alibaba-inc.com/ltao-fe/awesome-utils.git"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npm.alibaba-inc.com"
+    "url": "https://github.com/viaonweb/js-utils.git"
   },
   "keywords": [
     "utils",
     "javascript"
   ],
-  "author": "lee",
+  "author": "via",
   "license": "MIT",
-  "homepage": "http://gitlab.alibaba-inc.com/ltao-fe/awesome-utils#readme",
+  "homepage": "https://github.com/viaonweb/js-utils.git#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^8.1.0",
