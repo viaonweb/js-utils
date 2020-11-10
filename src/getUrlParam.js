@@ -14,5 +14,5 @@ export default (prop, url = window.location.href) => {
     const [key, val = ''] = str.split('=');
     params[key] = val;
   });
-  return params[prop];
+  return prop ? params[prop] : params;
 };
